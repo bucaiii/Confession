@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>520快乐</title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/index.css">
+    <!--    <link rel="stylesheet" href="css/shipei.css">-->
+    <script src="js/index.js" rel="javascript" defer></script>
+    <script src="js/dongtai.js" defer></script>
+
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
+    <!--<meta itemprop="image" content="./images/fenxiang.png" />-->
+
+
+</head>
+
+<body>
+    <!--头像-->
+    <div class="cs">
+        <!-- src表示头像的地址,建议上传到网页,然后放链接 -->
+        <img src="img/image.png" id="logo" onclick="playMusic()">
+    </div>
+    <canvas class="canvas" width="1820" height="905"></canvas>
+    <!--1792 x 828-->
+    <p class="text" style="color: #8ef5ff;">
+        我爱你 猪猪宝贝
+        <br />
+        <span id="span_dt_dt"></span>
+    </p>
+
+    <!-- 背景音乐,去这个网站搜http://y.webzcz.cn/,然后把下载链接放在src里 -->
+    <!-- <audio autoplay="autoplay" loop="loop">
+    <source src="music/69058500010223145.mp3"
+            type="audio/mpeg">
+</audio> -->
+    <audio id="myAudio">
+        <source src="music/69058500010223145.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+
+</html>
